@@ -6,20 +6,20 @@ import time as t
 wn = trtl.Screen()
 wn.setup(width = 1.0, height = 1.0)
 wn.bgcolor("gray")
-wn.bgpic(r"C:\Users\Jim\Desktop\Stuff\VSC\frogger.gif")
+wn.bgpic("frogger.gif")
 
 # create custom shapes
-frogShape = r"C:\Users\Jim\Desktop\Stuff\VSC\frog.gif"
-frogLeftShape = r"C:\Users\Jim\Desktop\Stuff\VSC\frogLeft.gif"
-frogRightShape = r"C:\Users\Jim\Desktop\Stuff\VSC\frogRight.gif"
-frogBackShape = r"C:\Users\Jim\Desktop\Stuff\VSC\frogBack.gif"
-car1Shape = r"C:\Users\Jim\Desktop\Stuff\VSC\car.gif"
-car2Shape = r"C:\Users\Jim\Desktop\Stuff\VSC\car2.gif"
-car3Shape = r"C:\Users\Jim\Desktop\Stuff\VSC\car3.gif"
-car4Shape = r"C:\Users\Jim\Desktop\Stuff\VSC\car4.gif"
-car5Shape = r"C:\Users\Jim\Desktop\Stuff\VSC\car5.gif"
-splatShape = r"C:\Users\Jim\Desktop\Stuff\VSC\splat.gif"
-timerBarShape = r"C:\Users\Jim\Desktop\Stuff\VSC\timerBar.gif"
+frogShape = "frog.gif"
+frogLeftShape = "frogLeft.gif"
+frogRightShape = "frogRight.gif"
+frogBackShape = "frogBack.gif"
+car1Shape = "car.gif"
+car2Shape = "car2.gif"
+car3Shape = "car3.gif"
+car4Shape = "car4.gif"
+car5Shape = "car5.gif"
+splatShape = "splat.gif"
+timerBarShape = "timerBar.gif"
 
 wn.addshape(frogShape)
 wn.addshape(frogLeftShape)
